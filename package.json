@@ -12,13 +12,17 @@
     "lint": "eslint ."
   },
   "dependencies": {
+    "@capacitor-firebase/authentication": "^8.5.2",
+    "@capacitor/android": "^8.5.3",
     "@capacitor/app": "8.1.2",
     "@capacitor/core": "8.5.3",
     "@capacitor/haptics": "8.0.2",
+    "@capacitor/ios": "^8.5.3",
     "@capacitor/keyboard": "8.0.6",
     "@capacitor/status-bar": "8.0.4",
     "@ionic/vue": "^9.0.0",
     "@ionic/vue-router": "^9.0.0",
+    "firebase": "^12.19.0",
     "ionicons": "^8.1.0",
     "vue": "^3.5.0",
     "vue-router": "^5.0.0"

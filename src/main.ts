@@ -33,6 +33,11 @@ import '@ionic/vue/css/palettes/dark.system.css';
 
 /* Theme variables */
 import './theme/variables.css';
+import './theme/animations.css';
+
+import { initAuthListener } from './composables/useAuth';
+
+initAuthListener();
 
 const app = createApp(App)
   .use(IonicVue)
