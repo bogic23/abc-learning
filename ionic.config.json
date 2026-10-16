@@ -1,0 +1,7 @@
+{
+  "name": "moodle-learn",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue-vite"
+}
